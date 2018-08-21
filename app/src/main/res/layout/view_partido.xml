@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:text="@string/lbl_opt_partido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgPRI"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/pri" />
+
+        <ImageView
+            android:id="@+id/imgPAN"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/pan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgPRD"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/prd" />
+
+        <ImageView
+            android:id="@+id/imgMorena"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/morena" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Tierra</string>
+    <string name="pass">Contraseña</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_solicitud">Nueva Solicitud</string>
+    <string name="response_time_out">TimeOut</string>
+    <string name="response_server_error">SERVER_ERROR</string>
+    <string name="str_error_server">Error al conectar con el servidor</string>
+    <string name="str_list_error">Error, intente de nuevo más tarde</string>
+    <string name="str_instente_mas_tarde">Error, El tiempo de espera se ha agotado</string>
+    <string name="response_true">TRUE</string>
+    <string name="title_activity_pre_registro">PreRegistroActivity</string>
+    <string name="title_activity_tarea">TareaActivity</string>
+    <string name="lbl_form">Ingresar datos</string>
+    <string name="lbl_fija">Publicidad Fija</string>
+    <string name="lbl_movil">Publicidad Movil</string>
+    <string name="lbl_tomar_foto">Tomar foto</string>
+    <string name="title_activity_categoria">CategoriaActivity</string>
+    <string name="btn_sos">S.O.S</string>
+    <string name="btn_call_comp">Call Company</string>
+    <string name="lbl_catego">Categorías</string>
+    <string name="lbl_opt_partido">Seleccione un partido</string>
+    <string name="lbl_close">Cerrar Evento</string>
+    <string name="txt_sede">Sede</string>
+    <string name="lbl_brigada">Brigada</string>
+    <string name="txt_desc">Descripción</string>
+    <string name="lbl_reinicio">Reiniciar App</string>
+    <string name="lbl_cerrar">Cerrar Activación</string>
+    <string name="btn_partido">Partido</string>
+    <string name="txt_cant">Cantidad de personas</string>
+    <string name="txt_cant_candi">Cantidad de candidatos</string>
+    <string name="txt_dura">Duración</string>
+    <string name="txt_type_candi">Tipo de candidato(s)</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_sub_categoria">SubCategoriaActivity</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_partido">PartidoActivity</string>
+    <string name="lbl_partido">Selecciona un partido</string>
+    <string-array name="array_tierra_id">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <!--<item>13</item>-->
+        <item>14</item>
+        <!--<item>15</item>-->
+        <item>16</item>
+        <item>131</item>
+        <item>132</item>
+        <item>133</item>
+        <item>134</item>
+        <item>135</item>
+        <item>136</item>
+        <item>137</item>
+        <item>139</item>
+        <item>140</item>
+    </string-array>
+    <string-array name="array_tierra">
+        <item>Espectaculares</item>
+        <item>Bardas</item>
+        <item>Lonas</item>
+        <item>Puentes</item>
+        <item>Pendones</item>
+        <item>Kioscos</item>
+        <item>Carteles</item>
+        <item>Parabuses</item>
+        <!--<item>Mobiliario/EspacioPublico</item>-->
+        <item>Volantes</item>
+        <!--<item>Valla Impresa</item>-->
+        <item>Valla Digital</item>
+        <item>Pantallas Fijas</item>
+        <item>Propaganda en Columnas</item>
+        <item>Buzones</item>
+        <item>Cajas de Luz</item>
+        <item>Marquesinas</item>
+        <item>Muebles Urbanos</item>
+        <item>Espectaculares de Pantallas Digitales</item>
+        <item>Mantas (Igual o Mayor a 12 MTS)</item>
+        <item>Mantas (Menores a 12 MTS)</item>
+    </string-array>
+    <string-array name="array_movil_id">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="array_movil">
+        <item>Transporte Público</item>
+        <item>Vehículos Publicitarios</item>
+        <item>Vehiculos particulares</item>
+        <item>Metro</item>
+        <item>Brigadas</item>
+        <item>Bicicletas,Bicitaxis,Mototaxis</item>
+        <item>Perifoneo</item>
+    </string-array>
+    <string-array name="array_briga">
+        <item>Aguas</item>
+        <item>Banderas</item>
+        <item>Batucada</item>
+        <item>Bocinas</item>
+        <item>Bolsas</item>
+        <item>Botarga</item>
+        <item>Carpa</item>
+        <item>Carteles</item>
+        <item>Camisa</item>
+        <item>Colchas</item>
+        <item>Chalecos</item>
+        <item>Despensas</item>
+        <item>Estructura de partido</item>
+        <item>Gorras</item>
+        <item>Lonas</item>
+        <item>Lonche</item>
+        <item>Mandiles</item>
+        <item>Mesas</item>
+        <item>Megafono</item>
+        <item>Microperforados</item>
+        <item>Pancartas</item>
+        <item>Pulseras</item>
+        <item>Playeras</item>
+        <item>Sombrillas</item>
+        <item>Stickers</item>
+        <item>Tarugos</item>
+        <item>Tortilleros</item>
+        <item>Vasos</item>
+        <item>Volantes</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="array_briga_id">
+        <item>160</item>
+        <item>161</item>
+        <item>162</item>
+        <item>163</item>
+        <item>164</item>
+        <item>165</item>
+        <item>166</item>
+        <item>167</item>
+        <item>168</item>
+        <item>169</item>
+        <item>170</item>
+        <item>171</item>
+        <item>172</item>
+        <item>173</item>
+        <item>174</item>
+        <item>175</item>
+        <item>176</item>
+        <item>177</item>
+        <item>178</item>
+        <item>179</item>
+        <item>180</item>
+        <item>181</item>
+        <item>182</item>
+        <item>183</item>
+        <item>184</item>
+        <item>185</item>
+        <item>186</item>
+        <item>187</item>
+        <item>188</item>
+        <item>189</item>
+    </string-array>
+</resources>

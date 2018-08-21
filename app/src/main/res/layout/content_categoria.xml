@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.integra.tierra.CategoriaActivity"
+    tools:showIn="@layout/activity_categoria">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:id="@+id/lFija"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_weight="1"
+            app:srcCompat="@drawable/publicidad_fija"
+            android:layout_width="250dp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/lbl_fija"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/lMovil"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_weight="1"
+            app:srcCompat="@drawable/publcidad_movil"
+            android:layout_width="250dp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/lbl_movil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/lBrigada"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_weight="1"
+            app:srcCompat="@drawable/brigada"
+            android:layout_width="250dp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/lbl_brigada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

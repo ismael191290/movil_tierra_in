@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.integra.tierra.PartidoActivity"
+    tools:showIn="@layout/activity_partido">
+
+    <ImageView
+        android:id="@+id/imgPRI"
+        app:srcCompat="@drawable/pri_pvm_panal"
+        android:layout_width="match_parent"
+        android:layout_height="165dp" />
+
+    <ImageView
+        android:id="@+id/imgPRD"
+        app:srcCompat="@drawable/pan_prd_mc"
+        android:layout_width="match_parent"
+        android:layout_height="170dp" />
+
+    <ImageView
+        android:id="@+id/imgMorena"
+        app:srcCompat="@drawable/morena_pes_pt"
+        android:layout_width="match_parent"
+        android:layout_height="170dp" />
+
+</LinearLayout>
